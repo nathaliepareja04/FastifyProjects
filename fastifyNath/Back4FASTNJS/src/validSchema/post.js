@@ -1,0 +1,20 @@
+export const postValidSchema= {
+    body:{
+        type:"object",
+        required:["title","description","category","user"],
+        properties:{
+            title:{
+                type:"string",
+            },
+            description:{
+                type:"string",
+            },
+            category:{
+                type:"string",
+            },
+            user:{
+                type:"string",
+            }
+        }
+    }
+}
